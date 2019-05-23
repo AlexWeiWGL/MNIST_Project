@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MNIST Prediction</title>
+</head>
+<body>
+<form action="/mnist/prediction" id="form" method="post" enctype="multipart/form-data">
+    <input type="file" id="picture" accept="image/vnd.sealedmedia.softseal-jpg" name="photo"/>
+    <input type="submit" value="Predict" id="predict"/>
+</form>
+<div id="result"></div>
+</body>
+</html>
